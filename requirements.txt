@@ -1,0 +1,7 @@
+# Runtime dependencies for the Flask recommender.
+# Crawlers / figures / documents need a few more packages; see requirements-full.txt.
+flask>=3.0
+numpy>=1.26
+
+# Only used when deploying to a Linux host (Render, Railway, Fly, VPS).
+gunicorn>=21.2; sys_platform != "win32"

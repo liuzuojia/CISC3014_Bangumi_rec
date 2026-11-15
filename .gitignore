@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# local documents (not needed to run the app)
+*.pdf
+*.docx
+*.pptx
+assets/
+
+# raw crawl output (only data/items.json, tag_matrix.npz, vocab.json,
+# tags.json and stats.json are required at runtime)
+data/*.jsonl
+data/ratings.csv
+data/ratings_clean.csv
+data/items.csv
+data/scale.json
+data/eval_final.json
+data/users.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
